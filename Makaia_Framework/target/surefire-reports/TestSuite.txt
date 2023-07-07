@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 101.533 s <<< FAILURE! - in TestSuite
+createIncident(tests.selenium.TC002_CreateIncidentAndGetFromRest)  Time elapsed: 27.428 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=111.0.5563.111)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-BN3PUO8', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 543bbb432da8f369b135b35462fc323a
+	at tests.selenium.TC002_CreateIncidentAndGetFromRest.createIncident(TC002_CreateIncidentAndGetFromRest.java:33)
+
+createIncident(tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium)  Time elapsed: 33.129 s  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=111.0.5563.111)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-BN3PUO8', ip: '10.0.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07ab8d4367cb135ba8688998b0d284b4
+	at tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium.createIncident(TC003_CreateIncidentUsingRestAndVerifyUsingSelenium.java:45)
+
