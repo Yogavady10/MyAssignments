@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31447" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:42 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31447" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:42 IST">
+      <class name="testcases.CreateLeadTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="startReport" is-config="true" duration-ms="210" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="sendData()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="sendData" is-config="true" duration-ms="0" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendData -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="testDetails" is-config="true" duration-ms="4" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="preCondition" is-config="true" duration-ms="5063" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runVerifyCreateLead()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="runVerifyCreateLead" duration-ms="9472" started-at="2023-04-01T12:42:15 IST" finished-at="2023-04-01T12:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runVerifyCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="postCondition" is-config="true" duration-ms="92" started-at="2023-04-01T12:42:25 IST" finished-at="2023-04-01T12:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:testcases.CreateLeadTest@4cf4d528]" name="stopReport" is-config="true" duration-ms="334" started-at="2023-04-01T12:42:42 IST" finished-at="2023-04-01T12:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testcases.CreateLeadTest -->
+      <class name="testcases.EditLeadTest">
+        <test-method status="PASS" signature="sendData()[pri:0, instance:testcases.EditLeadTest@df27fae]" name="sendData" is-config="true" duration-ms="1" started-at="2023-04-01T12:42:10 IST" finished-at="2023-04-01T12:42:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendData -->
+        <test-method status="PASS" signature="testDetails()[pri:0, instance:testcases.EditLeadTest@df27fae]" name="testDetails" is-config="true" duration-ms="0" started-at="2023-04-01T12:42:25 IST" finished-at="2023-04-01T12:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.EditLeadTest@df27fae]" name="preCondition" is-config="true" duration-ms="3417" started-at="2023-04-01T12:42:25 IST" finished-at="2023-04-01T12:42:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runVerifyEditLead()[pri:0, instance:testcases.EditLeadTest@df27fae]" name="runVerifyEditLead" duration-ms="13251" started-at="2023-04-01T12:42:28 IST" finished-at="2023-04-01T12:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runVerifyEditLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.EditLeadTest@df27fae]" name="postCondition" is-config="true" duration-ms="107" started-at="2023-04-01T12:42:42 IST" finished-at="2023-04-01T12:42:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.EditLeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
