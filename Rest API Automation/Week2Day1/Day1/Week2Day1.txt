@@ -1,0 +1,100 @@
+Agenda for the day:
+===================
+
+1)Postman variables
+--Put ,Delete
+--Traverse response
+
+Traversing through response and extract values:
+================================================
+1) Extract the response and save it in a variable
+var resp=pm.response.json();
+2) https://jsonpathfinder.com/ -- and traverse through the response
+3) Extract sys_id from response
+
+Postman variables:
+==================
+Placeholder  , holds/stores any value and which can be referred when ever it is necessary
+
+1) Global variable
+
+a) Use it across multiple request within the collection
+b) Use it across Multiple collections
+
+Snippet to set global variables:
+==================================
+pm.globals.set("variable_key", "variable_value");
+pm.globals.set("SystemID",sys_id);
+
+Environment menu(below collections) --Globals
+
+2) Environment variable
+
+Cannot be used outside the environment
+
+QA,Dev,Prod,Stagging,UAT
+
+min 2 to max 5
+
+Url,testdata,Configurations
+Dev,QA and UAT
+
+100
+
+Url -
+
+QA-https://dev90367.service-now.com/api/now/table/incident
+UAT --https://UAT90367.service-now.com/api/now/table/incident
+
+3) Collection variables
+
+Scope is within the collection
+
+4) Local variable
+
+Scope is within the request
+
+--------------------
+
+5) Data variable
+
+
+1) Create a New Collection
+2) Copy Post from the existing collections
+------------------------------------------
+1) Update incident and assert the status code
+2) Extract the value of Sys_id  from create incident and save it as Global variable
+3) Create environment variable and use it in all request
+
+Data variables:
+================
+Json and CSV --We can use only one file for entire collections
+
+CSV File:
+==========
+Open the excel give the data and save the file as CSV (Comma Delimited)
+
+
+2)Chaining of requests and collection runner
+
+To do CRUD operations in Run time
+
+Creating Incident --
+Get Incident --
+
+
+
+1) Extract Sys_id from create Incident and save it as a Global Variable
+2) Refer the global variable in the PUT and Delete request Url
+3) Run the collection via Runner
+
+
+
+
+
+
+
+
+
+
+

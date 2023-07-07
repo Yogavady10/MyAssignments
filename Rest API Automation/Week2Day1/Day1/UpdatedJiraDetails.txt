@@ -1,0 +1,18 @@
+Team,
+
+Kindly find the updated Jira Details
+
+Jira Details
+==============
+
+Url-https://testjirafeb2023.atlassian.net/
+
+Project Name-TestAPIApril
+
+Key --TES
+
+UserName:Feb2023restAPI@gmail.com
+
+password:
+========
+ATATT3xFfGF0mvtzC7E1H5d9miWWGR46tw4sAgaYrMWki49yrUcBRhWSXuL5gRLnsxRX8RqxK1737bYpNbiRHZZwqvfZdrH0mGTwpNacJdhTg0whHI2IxuqkdmwRjcTUNw8WKFn8DIGWwspux4zePxWflbRcOYZ5YvFpMZYHhAUXd4VzKDqkJ3s=277EF601
