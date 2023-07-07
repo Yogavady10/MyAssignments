@@ -1,0 +1,53 @@
+Project Day:
+===========
+
+1) How to perform API Testing/Exploratory Testing of API  without documentation
+
+https://uibank.uipath.com/
+Username-FebApiuser
+Password-Eagle@123
+
+a) Manually Intercept the API's in browser
+
+1) Launch the Url
+2) Enter the Username and Password
+3) Open chrome Dev tools (Right click inspect,F12 or Ctrl+shift+i)
+4) Click on network tabs
+5) Click on Fetch/XHR
+6) Click on Sign In button
+
+b) Analyze the API's
+1) Click on the API in the network tab (Login)
+2) Analyze the headers,payload and response
+
+{
+    "id": "g2iecTncEboO0Fyc9g48e2Y0NXRhoxtK16ILlqYKVoOyaqu4W8MmnDR4bXSdOwwm",
+    "ttl": 1209600,
+    "created": "2023-07-02T03:42:42.379Z",
+    "userId": "64290731ba9f8a0047adacfc"
+}
+
+3) g2iecTncEboO0Fyc9g48e2Y0NXRhoxtK16ILlqYKVoOyaqu4W8MmnDR4bXSdOwwm
+
+c) Test the same with Postman
+
+1) Right click on API,Copy --Copy Curl as Bash
+2) In Postman ,Click on Import button--Paste the Copied content
+3) Save the Request to Collection
+
+
+
+d) Implement the same in Makaia Framework
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+Agenda for the Day:
+=====================
+Recap 
+
+Common Mistakes:
+================
+
+1) Having 2 matschie framework projects in the same workspace
+2) Set the java Build Path
+
+Makaia Framework
+================
+
+Purpose:
+========
+Support UI+API Automation
+
+Scenarios:
+===========
+
+1) Only UI Automation
+2) Only API Automation
+3) UI+API Automation
+
+Shiftleft Testing
+
+API --Ready 
+UI -Under development
+
+Start functional testing with API
+
+Dependencies in POM.xml:
+========================
+webdrivermanager ---Before 4.6.0 
+4.6.0 --Internally handled selenium
+selenium-java --UI Automation
+JXL  --xls
+
+org.aeonbits.owner  --Read the Property file
+
+Folder structure
+================
+listeners
+
+
+Bug magnet:
+===========
+https://chrome.google.com/webstore/category/extensions
+
+
+*Assignment for the day*
+
+Contniue with classroom session and implement chaining of request for incidents in Makaia framework
+
+If completed ,Implement chaining of requests for issues(jira) in makaia framework
+
+
+
+
+Byte Learning:
+===============
+1) Configuration Manager along with Makaia
+2) Fake Filler --Chrome Extension
+3) Bug Magnet --Chrome Extension
+
+
+
+
+mvn clean test -Dsurefir.suiteXmlFiles=Rest.xml
+
+
+to translate data to any language in excel:
+available only in google spreadsheet
+Google drive -> New -> Google Sheets -> 
+
+=GOOGLETRANSLATE(text, sourcelanguage, requiredlanguage)
+=GOOGLETRANSLATE(A1, "en", "te") -> telugu
