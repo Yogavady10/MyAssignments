@@ -1,0 +1,114 @@
+Agenda :
+========
+1) Newman
+
+Reports
+CI/CD
+
+Newman -Commandline tool
+Execute the Postman collections from the command line
+
+
+Precondition:
+==============
+
+1) Export collection file and variable file to folder
+2) Place the data files if data  is read from extrenal source
+
+
+Combinations for execution:
+===========================
+
+1)Collection with variables without report
+
+newman run Week2Day1.postman_collection.json -e QA.postman_environment.json -g workspace.postman_globals.json
+
+2)Collection with variables generating report
+
+newman run Week2Day1.postman_collection.json -e QA.postman_environment.json -g workspace.postman_globals.json -r htmlextra
+
+3)Collection without variables without report
+
+4)Collection without  variables generating report
+
+5)With external data file
+
+
+newman run Week2Day1.postman_collection.json -e QA.postman_environment.json -g workspace.postman_globals.json -d JsonData.json -r htmlextra
+
+
+6) How to specify the number of iterations
+
+newman run Week2Day1.postman_collection.json -e QA.postman_environment.json -g workspace.postman_globals.json -d JsonData.json -r htmlextra -n 5
+
+
+Run the collection from newman:
+================================
+
+1) With all variables generating the reports
+2) Without variables number of iterations as 10
+3) With variables and read data from csv file
+
+
+
+Steps:
+======
+
+1) Open command prompt in the path where collection and variable files are present
+
+Run Collections Using Bat File:
+================================
+
+Create Bat File and give the newman commands
+
+2) Jenkins
+
+
+
+1) Execute Jobs Manually from Jenkins
+2) Schedule  and Execute the Job
+
+Java Version check:
+==================
+Java 8-Kindly download jenkins.war from separately shared link
+
+Jenkins Server Up:
+==================
+
+1) Go to Command Prompt from the path where Jenkins.war fileis present
+2)java -jar jenkins.war
+Java -Jar jenkins.war --enable-future-java
+
+
+Create Job:
+============
+
+After Login to Jenkins UI
+
+1) Click on NewItem 
+2) Select the project type as FreeStyle project  and click on OK
+3) Build --Add Build step
+4) Select Execute Windows Batch Command
+5) Click on Build Now
+
+Schedule and Run
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

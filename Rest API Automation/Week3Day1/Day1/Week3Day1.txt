@@ -1,0 +1,140 @@
+Recap and Common mistakes identified in assignment
+
+*Common Mistakes identified in postman assignment*
+
+1) In jira for update and delete dont assert response body(Only status code)
+
+2) 401 Unauthorized 
+
+a) Check whether inhertied the Authorization from parent(Collection)
+b) Check your jira key and use the updated one
+c) When you are using collection variables for Authorization
+Give the variables enclosed with curly braces {{password}}
+
+3)For newman execution, Environment and Collection variables should have initial value to be filled and not empty
+
+4) Dont comment request and execute via newman (400 bad Request)
+
+5) while giving newman commands file format for all the files should be specified(.json or .csv)
+
+newman run "Week2Day1-Variables&Environment.postman_collection.json" -e "QA Environment.postman_environment.json" -g workspace.postman_globals.json  -d UpdateData.json -r htmlextra
+
+Todays Agenda:
+==============
+
+1)Introduction to RestAssured and advantages over Postman
+
+What is RestAssured ?
+
+RestAssured Java library for RestAPI Automation
+
+Java --RestAssured
+C# -RestSharp
+Python -Pyrest
+
+Other tools/libraries:
+======================
+1)Ok http
+2) http client
+
+Why RestAssured preferred for API Automation ?
+
+1) Open Source
+2) In built Assertions (Hamcrest)
+3) Easy to code
+4) Given ,when and then (Similar to BDD)
+
+Given --Precondition
+When --Actual Test condition
+Request Body+ Http Method
+Then--Post condition
+Validate response --Assertions
+Response code ,response body
+
+
+Limitations of Postman Overcome by RestAssured :
+================================================
+
+1) Combining Selenium+Rest Assured Library UI+API automation
+2) Reporting
+3) Parallel execution
+
+RestAssured --API Automation
+Maven -Build tool
+Execution --TestNG
+
+Build Tools--Maven (for java projects),Gradle,ANt(older one)
+
+
+1) Creation of Maven Project:
+==============================
+
+1) Open eclipse
+2) File -New -Project
+3) Expand Maven -Select Maven Project -Click Next
+4) Enable Create Simple Project
+
+2) Add the Dependencies:
+========================
+Rest Assured Depenency:
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.3.1</version>
+    <scope>test</scope>
+</dependency>
+
+TestNG Dependency
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.5</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+
+
+
+2)Create,Edit and Delete Incidents in Rest Assured
+
+a)Create Incident without body
+b)Create Incident with File
+c)Create Incident with String
+
+
+*Class Room session*
+
+1) Create a New maven project
+2) Add dependencies
+3) Create an incident withou request body
+
+3)Learn Query Parameters
+
+what are query parameters -- In endpoint after ?
+why query parameters are used --Filter the request
+Is that query parameters common for all application --Differs
+
+Single Query Parameter
+Multiple Query Parameters
+
+Byte Learning:
+==============
+Dynamic Test data Generation:
+=============================
+
+1) Postman --https://learning.postman.com/docs/writing-scripts/script-references/variables-list/
+2) Java Library  --Java faker 
+<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
+3) web tool
+https://www.mockaroo.com/
+
+

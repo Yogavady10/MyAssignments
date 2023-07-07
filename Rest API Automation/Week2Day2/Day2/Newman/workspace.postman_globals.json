@@ -1,0 +1,15 @@
+{
+	"id": "05a645b7-f61b-4a92-8b12-68f89cb41dbc",
+	"values": [
+		{
+			"key": "SystemID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-06-11T03:44:57.384Z",
+	"_postman_exported_using": "Postman/10.14.9"
+}
