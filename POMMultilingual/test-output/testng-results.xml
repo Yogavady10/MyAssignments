@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6587" started-at="2023-03-28T17:40:54 IST" finished-at="2023-03-28T17:41:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6587" started-at="2023-03-28T17:40:54 IST" finished-at="2023-03-28T17:41:00 IST">
+      <class name="testcases.VerifyLoginTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:testcases.VerifyLoginTest@23fe1d71]" name="preCondition" is-config="true" duration-ms="5718" started-at="2023-03-28T17:40:54 IST" finished-at="2023-03-28T17:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runVerifyCreateLead()[pri:0, instance:testcases.VerifyLoginTest@23fe1d71]" name="runVerifyCreateLead" duration-ms="642" started-at="2023-03-28T17:40:59 IST" finished-at="2023-03-28T17:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runVerifyCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.VerifyLoginTest@23fe1d71]" name="postCondition" is-config="true" duration-ms="190" started-at="2023-03-28T17:41:00 IST" finished-at="2023-03-28T17:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.VerifyLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
