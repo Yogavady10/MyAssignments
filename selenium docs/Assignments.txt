@@ -1,0 +1,609 @@
+Week1.Day1
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Assignment1
+Create a class for TwoWheeler and declare below variables with appropriate values and print the values ....
+int noOfWheels
+short noOfMirrors
+long chassisNumber
+boolean isPunctured
+String bikeName
+double runningKM
+
+
+Assignment2
+Create a class for Mobile and declare below variables with appropriate values and print the values......
+String mobileBrandName
+char mobileLogo
+short noOfMobilePiece
+int modelNumber
+long mobileImeiNumber
+float mobilePrice
+boolean isDamaged
+
+
+***********************************************************************************************************
+
+week1.day2
+Sunday Home Assignments
+
+Home Assignment 1: Print Fibbinocci series for first 11 numbers
+
+0  1  1  2  3  5  8  13  21  34  55  89  144
+
+Goal: To understand the arthimetic operation and loop
+
+a) Create a class by name: Fibbinocci
+b) Create a main method using shortcut
+c) Write a logic to print fibbinocci from 0 to 56
+
+Hints: 
+
+Initialize 3 int variables (Tip: firstNum = 0, secNum = 1, sum = 0)
+Print first number
+Iterate from 1 to the 11
+Add first and second number assign to sum
+Assign second number to the first number
+Assign sum to the second number
+Print sum
+
+Time to given: 15 - 20 minutes.
+____
+
+Home Assignment 2: Print if the given number is prime
+
+Goal: To understand the problem solving, looping and conditional statement
+
+a) Create a class by name: IsPrime
+b) Create a main method using shortcut
+c) Write a logic to find if the given number is prime or not
+d) Print if it is prime or not
+
+Hint: Iterate through all numbers from 2 to n-1 (input) and 
+for every number check if it divides n (input). 
+If we find any number that divides, print prime.
+If nothing divides, then print non-prime
+
+Time to given: 15 - 20 minutes.
+____
+
+**************************************************************************************************************************
+
+Week 2:Day1
+                  Assignment 1:Create Lead
+		  1. Launch URL "http://leaftaps.com/opentaps/control/login"
+		  2. Enter UserName and Password Using Id Locator
+		  3. Click on Login Button using Class Locator
+		  4. Click on CRM/SFA Link
+		  5. Click on Leads Button
+		  6. Click on Create Lead 
+		  7. Enter CompanyName Field Using id Locator
+		  8. Enter FirstName Field Using id Locator
+		  9. Enter LastName Field Using id Locator
+		  10. Enter FirstName(Local) Field Using id Locator
+		  11. Enter Department Field Using any Locator of Your Choice
+		  12. Enter Description Field Using any Locator of your choice 
+		  13. Enter your email in the E-mail address Field using the locator of your choice
+		  14. Select State/Province as NewYork Using Visible Text
+		  15. Click on Create Button
+                  16. Get the Title of Resulting Page. refer the video  using driver.getTitle()
+		  
+                  Assignment 2:Edit Lead
+		  1. Launch URL "http://leaftaps.com/opentaps/control/login"
+		  2. Enter UserName and Password Using Id Locator
+		  3. Click on Login Button using Class Locator
+		  4. Click on CRM/SFA Link
+		  5. Click on Leads Button
+		  6. Click on Create Lead 
+		  7. Enter CompanyName Field Using id Locator
+		  8. Enter FirstName Field Using id Locator
+		  9. Enter LastName Field Using id Locator
+		  10. Enter FirstName(Local) Field Using id Locator
+		  11. Enter Department Field Using any Locator of Your Choice
+		  12. Enter Description Field Using any Locator of your choice 
+		  13. Enter your email in the E-mail address Field using the locator of your choice
+		  14. Select State/Province as NewYork Using Visible Text
+		  15. Click on Create Button
+                  16. Click on edit button
+                  17. Clear the Description Field using .clear()
+		  18. Fill ImportantNote Field with Any text
+		  19. Click on update button 
+		  20. Get the Title of Resulting Page. refer the video  using driver.getTitle()
+       
+                  Assignment 3:Duplicate Lead
+                  1. Launch URL "http://leaftaps.com/opentaps/control/login"
+		  2. Enter UserName and Password Using Id Locator
+		  3. Click on Login Button using Class Locator
+		  4. Click on CRM/SFA Link
+		  5. Click on Leads Button
+		  6. Click on Create Lead 
+		  7. Enter CompanyName Field Using id Locator
+		  8. Enter FirstName Field Using id Locator
+		  9. Enter LastName Field Using id Locator
+		  10. Enter FirstName(Local) Field Using id Locator
+		  11. Enter Department Field Using any Locator of Your Choice
+		  12. Enter Description Field Using any Locator of your choice 
+		  13. Enter your email in the E-mail address Field using the locator of your choice
+		  14. Select State/Province as NewYork Using Visible Text
+		  15. Click on Create Button
+                  16. Get the Title of Resulting Page(refer the video)  using driver.getTitle()
+                  17. Click on Duplicate button
+                  18. Clear the CompanyName Field using .clear() And Enter new CompanyName
+                  19.Clear the FirstName Field using .clear() And Enter new FirstName
+                  20.Click on Create Lead Button
+                  21. Get the Title of Resulting Page(refer the video)  using driver.getTitle()
+                 
+                  
+               ***
+                 **Note : Kindly refer the video
+
+https://youtu.be/5sTzJgpt5PM
+
+https://drive.google.com/file/d/1VAB40_OOaGFoEJlbxtLsyOveiihVkjiO/view?usp=share_link
+
+https://drive.google.com/file/d/1_5xjV1f_a3aKCKsKxTP8VWSaL1a_tUn_/view?usp=sharing
+
+Url:http://leaftaps.com/opentaps/control/main
+UserName:Demosalesmanager
+Password:crmsfa
+
+**************************************************************************************************************************
+
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Assignments week2.day2
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Assignment:1
+FaceBook:
+================================
+// Step 1: Download and set the path 
+// Step 2: Launch the chromebrowser
+// Step 3: Load the URL https://en-gb.facebook.com/
+// Step 4: Maximise the window
+// Step 5: Add implicit wait
+// Step 6: Click on Create New Account button
+// Step 7: Enter the first name
+// Step 8: Enter the last name
+// Step 9: Enter the mobile number
+// Step 10: Enterthe password
+// Step 11: Handle all the three drop downs
+// Step 12: Select the radio button "Female" 
+            ( A normal click will do for this step) 
+
+Assignment:2
+==================================================
+
+https://github.com/TestLeafPages/SeleniumAssignments/tree/master/week2/day2.assignments
+   Complete all 4 assignments in this link
+        
+	   
+Assignment:3
+========================
+LeafGround Assignments
+*
+**Note : Kindly refer the video attached to do the following assignments
+TextBox
+=======
+https://www.leafground.com/input.xhtml
+1. Type your name
+2. Append Country to this City
+3. Verify if text box is disabled
+4. Clear the typed text
+5. Retrieve the typed text
+6. Type email and Tab. Confirm control moved to next element
+7. Type about yourself
+8. Text Editor
+9. Just Press Enter and confirm error message*
+10. Click and Confirm Label Position Changes
+11. Type your name and choose the third option
+12. Click and Confirm Keyboard appears
+13. Custom Toolbar
+
+Button
+======
+https://www.leafground.com/button.xhtml
+1. Click and Confirm title
+2. Confirm if the button is disabled
+3. Find the position of the Submit button
+
+DropDown
+========
+https://www.leafground.com/select.xhtml
+
+Checkbox
+=======
+https://www.leafground.com/checkbox.xhtml
+
+Radio
+=====
+https://www.leafground.com/radio.xhtml
+
+
+🎯🎯 Hi Team,
+You can add implicitlywait for your automation execution ,after the driver initialize. 
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Week2.Day2
+🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫🍫
+Arrays:
+=======
+Assignments 
+===========
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/FindSecondLargest.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/MissingElementInAnArray.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/classroom/arrays/PrintDuplicatesInArray.java
+4.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/FindIntersection.java
+
+
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+JavaScriptClick
+https://drive.google.com/file/d/15y75Yx_IS4ozYyy2Q9EwUdnyTMCm4KCa/view?usp=sharing
+
+Kindly check this video to know about svg elements👇🏻
+https://drive.google.com/file/d/1GDIUhOvVbHnaeUnVAh_k-eh5VsqzaPWT/view?usp=share_link
+
+************************************************************************************************************************
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+ASSIGNMENTS OOPs concept
+=============
+Week3 Day1 
+
+Assignment1
+===========
+     Package   :org.system
+     Class        :Computer
+     Methods   :computerModel()
+
+     Class        :Desktop
+     Methods   :desktopSize()
+
+Description:
+create above 2 class and call all your class methods into the Desktop using single inheritance.
+
+
+Assignment2
+=============
+     Package   :org.college
+     Class     :College
+     Methods   :collegeName(),collegeCode(),collegeRank()
+
+     Package   :org.department
+     Class        :Department
+     Methods   :deptName()
+ 
+     Package   :org.student
+     Class        :Student
+     Methods   :studentName(),studentDept(),studentId()
+  
+Description:
+create above 3 class and call all your class methods into the Student using multilevel inheritance.
+
+Assignment3
+============
+    Class     :BankInfo
+    Methods :saving(),fixed(),deposit()
+
+     Class     :AxisBank
+     Methods :deposit()
+
+Description:
+You have to override the method deposit in AxisBank.
+
+Assignment 4
+==============
+
+      Class: Students
+      Methods: getStudentInfo()
+
+Description: 
+Create multiple getStudentInfo() method by passing id argument alone, by id & name, by email & phoneNumber
+
+==================================================
+Assignment 5
+==============
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/ChangeOddIndexToUpperCase.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/ReverseEvenWords.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week1/day2/assignments/mandatory/RemoveDuplicates.java
+
+
+*************************************************************************************************************************************
+
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Week3.Day2
+
+Assignment 1 on Abstraction
+===========
+Interface :Language
+     Methods   :Java()
+     Interface :TestTool
+     Methods   :Selenium()
+     AbstractClass :MultipleLangauge
+     Methods   :python() and un implemented method as ruby()
+  Execution class: Automation 
+Implement all the methods of interface and abstract class in Automation class
+
+
+Assignment :2  :Collections-using List and Set
+
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/FindSecondLargest.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/MissingNumber.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/RemoveDuplicatesWords.java
+4.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/PrintUniqueCharacter.java
+5.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Classroom/SortingUsingCollection.java
+6.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Classroom/RemoveDuplicates.java
+
+
+	
+SAMPLE PROGRAM TO IMPLEMENT List
+=================================
+ NOTE: Java code is attached for your reference.
+
+1. Launch the URL https://www.ajio.com/
+2. In the search box, type as "bags" and press enter
+3. To the left  of the screen under " Gender" click the "Men"
+4. Under "Category" click "Fashion Bags"
+5. Print the count of the items Found. 
+6. Get the list of brand of the products displayed in the page and print the list.
+7. Get the list of names of the bags and print it
+
+SAMPLE PROGRAM TO IMPLEMENT List : code
+=================================
+package Assignments;
+
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Ajio {
+	public static void main(String[] args) throws InterruptedException {
+
+		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		// Step 2: Instantaite the ChromeDriver
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		ChromeDriver driver = new ChromeDriver(options);
+		// Loads a new web page in the current browser window
+		// Maximise the screen
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://www.ajio.com/");
+		//In the search box, type as "bags" and press enter
+
+		driver.findElement(By.name("searchVal")).sendKeys("bags", Keys.ENTER);
+		//driver.findElement(By.id("Men")).click();
+		Thread.sleep(2000);
+		// To the left  of the screen under " Gender" click the "Men"
+		driver.findElement(By.xpath("//label[@for='Men']")).click();
+		Thread.sleep(2000);
+		//Under "Category" click "Fashion Bags"
+		driver.findElement(By.xpath("//label[@for='Men - Fashion Bags']")).click();
+		Thread.sleep(2000);
+		// Print the count of the items Found.
+		String totalItems = driver.findElement(By.className("length")).getText();
+		System.out.println("Total number of items : " + totalItems);
+		//Get the list of brand of the products displayed in the page and print the list.
+		System.out.println(" List of Brands");
+		List<WebElement> bagBrandList = driver.findElements(By.className("brand"));
+		System.out.println(" Size :" + bagBrandList.size());
+
+		for (WebElement webElement : bagBrandList) {
+			String text = webElement.getText();
+			System.out.println(text);
+		}
+		// Get the list of names of the bags and print it
+		List<WebElement> bagNameList = driver.findElements(By.className("nameCls"));
+		System.out.println(" Size :" + bagNameList.size());
+		System.out.println(" Names of the Bags");
+		for (WebElement webElement : bagNameList) {
+			String text = webElement.getText();
+			System.out.println(text);
+		}
+
+	}
+}
+
+
+*************************************************************************************************************************************
+Week4 day1
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+
+Assignment 1
+===============
+Window Handling:
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day2/Assignments/MergeContact.java
+
+2.https://leafground.com/window.xhtml;jsessionid=node0ohpw87cjok1dz9p1fgudvj6l12019.node0
+
+
+Assignment 2 Amazon
+1.Load the URL https://www.amazon.in/
+2.search as oneplus 9 pro 
+3.Get the price of the first product
+4. Print the number of customer ratings for the first displayed product
+5. Click the first text link of the first image
+6. Take a screen shot of the product displayed
+7. Click 'Add to Cart' button
+8. Get the cart subtotal and verify if it is correct.
+9.close the browser
+
+*************************************************************************************************************************************
+
+Week4.Day2
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+Assignment 1
+--------------------
+1. Load https://buythevalue.in/
+2. Click on first product (eg: Hamdard Hing - 50GM)
+//Handle Frame
+3. Close chat widget
+4. Enter the pincode 
+5. Click on Check
+6. Click on ADD TO CART
+7. Click on View
+8. Click on CHECK OUT
+//Handle alert
+9. Accept the alert
+
+Assignment 2:Nykaa
+=============
+1) Go to https://www.nykaa.com/
+2) Mouseover on Brands and Search L'Oreal Paris
+3) Click L'Oreal Paris
+4) Check the title contains L'Oreal Paris(Hint-GetTitle)
+5) Click sort By and select customer top rated
+6) Click Category and click Hair->Click haircare->Shampoo
+7) Click->Concern->Color Protection
+8)check whether the Filter is applied with Shampoo
+9) Click on L'Oreal Paris Colour Protect Shampoo
+10) GO to the new window and select size as 175ml
+11) Print the MRP of the product
+12) Click on ADD to BAG
+13) Go to Shopping Bag 
+14) Print the Grand Total amount
+15) Click Proceed
+16) Click on Continue as Guest
+17) Check if this grand total is the same in step 14
+18) Close all windows
+
+Assignment 3:SnapDeal
+============
+1. Launch https://www.snapdeal.com/
+2. Go to Mens Fashion
+3. Go to Sports Shoes
+4. Get the count of the sports shoes
+5. Click Training shoes
+6. Sort by Low to High
+7. Check if the items displayed are sorted correctly
+8.Select the price range (900-1200)
+9.Filter with color Navy 
+10 verify the all applied filters 
+11. Mouse Hover on first resulting Training shoes
+12. click QuickView button
+13. Print the cost and the discount percentage
+14. Take the snapshot of the shoes.
+15. Close the current window
+16. Close the main window
+
+
+*************************************************************************************************************************************
+
+TestNg Assignments
+Week 6 Day 1
+
+Assignment:1 (Leaftaps Application)
+=======================
+1. Create BaseClass with preCondition() and postCondition() with @BeforeMethod and @AfterMethod 
+2. Move the common code from all the 5 testcases into preCondition() and postCondition()
+3. Extend all the 5 test cases with BaseClass and execute sequentially and parallely using testng.xml
+=============================
+
+
+Assignment:2
+==============
+
+Implement the above said steps in ServiceNow application  for the given 4 testcases of Incident Management in the attached text file
+
+
+*************************************************************************************************************************************
+
+TestNg Assignment
+Week 6 Day2 
+============
+
+ TestNg DataProvider Assignment 
+
+Hope you all had a great learning today. 
+🍫🍫🍫🍫🍫🍫🍫
+Do not feel overloaded. 
+Take small steps. You can cross miles away
+Slow and Steady always wins.🏆🥇🥇
+HAPPY LEARNING🤝
+
+. Dynamic data parametrization
+           *Apply  for all the leaftaps testcases , wherever applicable
+    - Create new excel document for the testcases that require the multiple data to operate on.
+    - Implement the Data parametrization for all the required testcases through the DataProvider class to read the data from the excel sheet
+
+==================================================================
+Apply all the today's learning in the Service now application
+
+*************************************************************************************************************************************
+
+Cucumber Assignment
+Week 7 Day1
+============
+Cucumber
+
+Create a separate Feature file for all the 5 testcases of leaftaps and implement it
+Implement 
+Try to apply all your learnings in your script
+
+
+*************************************************************************************************************************************
+
+Cucumber Assignment
+Week 7 Day2
+============
+Cucumber :
+*Create a separate Feature file for all the 5 testcases of Salesforce Applications and implement it
+Implement *Scenario Outline  (Wherever Applicable)
+Try to apply all your learnings in your script
+Assignments on cucumber
+===============
+1.Implement tags for the test cases (@functional, @regression, @smoke and @sanity)
+2. Run all the @smoke and @snaity test scenarios using tags attribute in the @CucumberOptions
+3.Try to implement all the concepts that you learnt today in your testcases
+4..Implement the preconditions and postconditions using *Hooks Implementation and extend baseclass for all 5 testcases
+
+Pseudocode for SalesforceApplication
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/cucumber/CreateNewOpportunity.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/cucumber/CreateOpportunityWithoutMandatoryFields.java
+3.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/cucumber/CreateNewDashboard.java
+4.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/cucumber/CreateIndividuals.java
+
+
+MAP
+1.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/FindNumberOfOccurances.java
+2.https://github.com/TestLeafPages/SeleniumAssignments/blob/master/week3/day1/Assignments/FindMostDuplicateNumber.java
+
+
+*************************************************************************************************************************************
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+POM -  ASSIGNMENT
+==============
+1.Implement the PageObjectModel for all the 5 Testcases in Leaftaps Application 
+2.Try to run  all the test case  in parallel mode
+
+*************************************************************************************************************************************
+
+
+🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓
+POM -  ASSIGNMENT
+==============
+Implement the PageObjectModel for all the 5 Testcases in leaftaps.
+1.Try to run in parallel mode. 
+
+2.Also, integrate the DataProvider to these testcases to accept and process on multiple data.
+
+3.Implement the PageObjectModel with properties file for all the 5 Testcases in leaftaps. 
+
+4.Try to Implementing the timeout.
+
+5.Try implementing the  retry analyzer in your failed testcases.
+
+Try to apply the today's learnt concepts in your testcases

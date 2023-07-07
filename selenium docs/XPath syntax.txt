@@ -1,0 +1,54 @@
+To open the filter box in the Dom-press ctrl+f
+
+Relative xpath(5):
+ 1.Attribute based xpath
+  Syntax: //tagName[@attributeName='attributeValue']
+  Ex    :  //input[@id='username']
+ 2.Text Based xpath:
+   Syntax: //tagName[text()='textValue']
+   Ex    : //label[text()='Password']
+ 3.Partial Attribute based xPath:
+   Syntax:  //tagName[contains(@attributeName,'partialAttributeValue')]   
+   Ex:      //input[contains(@class,'Submit')]
+ 4.Partial text based xPath:
+   Syntax:  //tagName[contains(text(),'textValue')]  
+   Ex:      //a[contains(text(),'CRM')] 
+ 5.Index Based xPath:
+   Syntax:  (//tagName[@attributeName='attributeValue'])[index]
+   Ex:      (//input[@class='inputLogin'])[2]
+
+
+Advanced xPath(8):
+
+1)Parent to Child:
+  Syntax: BasicXpathforParent/childtagName
+  Ex:     //p[@class='top']/input
+
+2)Child to parent:
+  Syntax:  BasicXpathforChild/parent::parenttagName 
+  Ex:      //input[@id='password']/parent::p
+
+3)GrandParent to GrandChild:
+  Syntax:  BasicXpathforGrandParent//grandChildtagName  
+  Ex:      //form[@id='login']//input
+           //form[@id='login']//input[@class='decorativeSubmit']
+
+4)GrandChild to GrandParent:
+  Syntax:  BasicXpathforGrandChild/ancestor::grandParenttagName      
+  Ex:      //input[@class='decorativeSubmit']/ancestor::form 
+
+5)ElderCousin to YoungerCousin:
+  Syntax: Xpath_ElderCousin/following::youngerCousinTagName    
+  Ex:     //span[text()='Company Name']/following::input
+
+6)YoungerCousin to ElderCousin:
+  Syntax:  youngercousinXpath/preceding::elderCousinTagName
+  Ex:      //input[@name='submitButton']/preceding::input[@id='createLeadForm_lastName']
+
+7)ElderSibling to YoungerSibling:
+   Syntax:  ElderSiblingXpath/following-sibling::youngerSiblingTagName
+   Ex:      //label[text()='Username']/following-sibling::input
+
+8)YoungerSibling to ElderSibling:
+   Syntax:  youngerSiblingXpath/preceding-sibling::elderSiblingTagName
+   Ex:      //input[@id='username']/preceding-sibling::label

@@ -1,0 +1,45 @@
+Here are the list of pre-program assignments to be completed on or before 3rd Feb 2023 ✔️
+
+PLEASE READ COMPLETELY AND FOLLOW EACH ACTIVITY CAREFULLY
+
+	If you follow our guidelines sequentially, you will be successful with pre-program assignments in less than 30 minutes without anyone's assistance. 
+
+	If you have issues with any of these activities, our video @ https://www.youtube.com/watch?v=4qypnfygfKo will help you out to carry on your installation process. 
+
+	If you are not comfortable with the video, you can also read the document at https://tinyurl.com/SeleniumSWInstall before you post your questions in the WhatsApp sub group.
+
+1) List of Software Installations and downloads to be done:  
+
+	Java JDK (Installation required) 
+	Eclipse (Just Download and Run)
+	Create Maven Project and add Dependencies in Eclipse
+
+2) Resources to Support Software Installations:  
+
+1.	Download the required software available at https://tinyurl.com/SeleniumSws  (Select Software folder and download to your local, Download only the required SW )
+
+2.	Please go through the link for installation support in document form.
+https://tinyurl.com/SeleniumSWInstall
+
+3.	Please go through the link for installation support in audio-video form.
+https://www.youtube.com/watch?v=4qypnfygfKo
+
+4. Install Xpath Finder 
+Ruto-Chrome
+- Go to Google Chrome browser.
+- Navigate to Link: 
+http://tiny.cc/RutoChrome
+- Click Add to Chrome
+Note: In the following pop-up, click add extension
+
+Step 1 --> Go to pom.xml 
+   * Change Selenium - java version into 4.6.0
+   * Remove webdrivermanager dependency in pom.xml 
+    * Save pom.xml
+    * Update the project
+Maven Update :
+ Mouseover on ProjectName Right Click --> Maven --> Update Project --> Click Force Update ChkBox --> Click Ok
+
+Step 2 -->  Run the sample code given by Testleaf.
+
+Note: All the above have been documented well at https://selenium-support.testleaf.com in detail.

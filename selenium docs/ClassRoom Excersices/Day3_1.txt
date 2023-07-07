@@ -1,0 +1,11 @@
+Classroom 1:
+   -Load salesforce application
+   https://login.salesforce.com/
+  -Load facebook.com in ChromeBrowser and EdgeBrowser
+
+Classroom 2:
+   -Load salesforce application
+   https://login.salesforce.com/
+
+hari.radhakrishnan@qeagle.com
+ Leaf@123
