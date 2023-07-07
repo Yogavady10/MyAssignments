@@ -1,0 +1,138 @@
+3rd June
+		- What is API
+		- hands on 
+		
+		
+		- API vs webservices vs microservices
+		
+		before API
+		  - java - java
+		  - python - python 
+		  
+		  - contract document
+		  
+		  API - umbrella
+		  
+			- communication happens between 2 systems with/without internet
+			
+		 webservices - 
+		    - communication happens between 2 systems with internet
+			
+		
+		all webservices are API, but not all APIs are webservices
+		
+		
+		why API demand is surge /needed?
+				API Based Apps
+				Faster
+				Easier and Isolated
+				Data Generation
+				Less Failures
+				early testing
+				
+				
+				any application development 
+				1. Database
+				2. API 
+				3. middelware
+				4. UI
+				
+				monolithic vs microservices
+					
+					monotlithic
+							- amazon e commerce
+								- clothes
+								- electronics
+								- households - no SQL
+								- payment
+								- one database
+										tables for clothes, elec etcc - oracle
+										
+					microservices
+						- independent
+								- clothes are inde - its own DB - oracle
+								- electronics - mongoDB
+								- SAAS
+				API Based Apps
+				
+								- all the apps are API BAsed
+								- going for SAAS
+								
+				PAAS Vs IAAS Vs SAAS - 
+						
+						
+				API Based Apps - all the apps/webpage are API based
+				Faster
+						- no rendering involved
+				Easier and Isolated
+								bookmyshow - 
+								monolithic vs microservices
+				Data Generation
+								- faker API- data generation
+				Less Failures
+								- almost never fails
+				early testing
+						- before UI 
+						
+						
+				more API Tests - 60 to 75 %
+				UI - 40 to 25%
+				
+				5 step process
+						- REquirement
+						- Endpoint
+						- Add Request
+						- send REquest
+						- validate the response
+						
+						
+				Get 
+				
+				Servicenow - ticketing tool - hibernating mode
+							6 hours of no usage of service will go to hibernating mode
+							10 or 15 days of no usage , your instance will be claimed back to the pool
+							Utah, san diago, tokyo - you can choose any location
+							
+							
+							
+					Instance name: dev117892
+					Instance URL: https://dev117892.service-now.com/
+					Username: admin
+					Password: pQ*WNhtb3U8$
+					
+					
+					
+			postman - api testing tool
+			send the rewquest
+			get the response
+			
+			
+			resource for servicenow for incident - api/now/table/incident
+			
+			get the details of all the tickets
+			
+			collection - group of requests
+				Postman 
+						
+						5 step process
+						- REquirement   - done
+						- Endpoint      - (server+port +resources)https://dev117892.service-now.com/api/now/table/incident
+						- Add Request   - Headers + Authorization + Request Query / body 
+											
+						- send REquest  - 
+						- validate the response
+						
+						
+						sys_id - servicenow
+						
+						
+						CAUTION - SAVE your PostMAn Requests always
+						
+						
+						Assignment
+						1. PAAS Vs IAAS Vs SAAS - difference with examples
+						2. make a get call to the servicenow instance in postman
+						
+						
+						
+						

@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "9ee30029-a6e9-49d7-8d9c-4f9e8773a7c8",
+		"name": "SErviceNow_June_API_2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15867187"
+	},
+	"item": [
+		{
+			"name": "Getting the incidents with filter",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident?sysparm_fields=sys_id,category",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting the incident",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident/46ee8c2fa9fe198100623592c70d643e",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"46ee8c2fa9fe198100623592c70d643e"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting the incidents with filter as category as software",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident?sysparm_fields=sys_id,category",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category"
+						},
+						{
+							"key": "category",
+							"value": "software",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create an Incident without body",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create an Incident with body as string",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"This is my first description\",\r\n  \"short_description\": \"This is my first SD\",\r\n  \"category\": \"software\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create an Incident with body as File",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/D:/Technology/TestLeaf Training/json files/InputFile.json"
+					}
+				},
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "sys_id,category",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

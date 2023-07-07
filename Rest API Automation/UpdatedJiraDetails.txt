@@ -1,0 +1,37 @@
+Team,
+
+Kindly find the updated Jira Details
+
+Jira Details
+==============
+
+Url-https://testjirafeb2023.atlassian.net/
+
+Project Name-TestAPIApril
+
+Key --TES
+
+UserName:Feb2023restAPI@gmail.com
+
+password:
+========
+ATATT3xFfGF01bGXsW6x_hMWHD9dZrX97qmPZmzdiogg0jpRjrqTqPr6VZ6AKweGIH9opRWoBIfG5DOtVurNgUJ8LhB61wkNXSzQv1g5cBrOhTcvSA2dtzsMe0c530EZhi-BQcNuP7FJh6qRSGb7kC8pSRziOvoRfTpu7NNF8XEjPVf_L_srpE0=47F1B570
+
+
+Kindly find the below steps to add hooks in plain cucumber project
+
+
+1)Create a hooks package in cucumber project 
+
+2) Create a class file and add a new method annotated with  @Before , adding 
+@Before
+	public void setUp() throws FileNotFoundException, IOException{ 
+		Properties prop = new Properties();
+		prop.load(new FileInputStream(new File("./src/test/resources/config.properties")));
+		
+		RestAssured.baseURI = "https://"+prop.getProperty("server")+"/"+prop.getProperty("resources")+"/";
+		RestAssured.authentication = RestAssured.basic(prop.getProperty("username"), prop.getProperty("password"));
+		//RestAssured.authentication=RestAssured.oauth2(prop.getProperty("oAuth2"));
+	}
+
+3) In the runner class ,in cucumber options add the hooks package in the glue

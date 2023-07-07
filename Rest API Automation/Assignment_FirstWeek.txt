@@ -1,0 +1,46 @@
+Jira details
+------------
+server 	 - https://testleafjune2022.atlassian.net
+username - testleafjune2022@gmail.com
+password - ATATT3xFfGF00wial7mKHuak9oE9aHaEjKB7qfwSfs_1x8qnsRxYWz_ky_63NJzXejpKOpb52G1Bef5jyotz02R_4s5emso0m9cpD-PhujcWZiu6ZxjnqbFfeA7gDJ5n1OyhGlZQHZb7nNJLxnDrVicP1f9da2g4EMJl-DAB68rdrQYtjCQ-Zlo=3E598ED3
+Key - JUN
+resource - remains same as in the document
+
+ServiceNow:
+-----------
+Instance name: dev117892
+Instance URL: https://dev117892.service-now.com/
+Username: admin
+Password: pQ*WNhtb3U8$
+
+
+Assignment First Week:
+---------------------
+
+1. Using Put, Update the existing record with the below details in servicenow
+		description - "Updated Successfully with Put Request"
+		made_sla - false
+		approval - requested
+
+2. Using Patch, Update the existing record with the below details in servicenow
+		short_description - "Updated Successfully with Patch Request"
+		category - hardware
+
+3. Delete an incident in servicenow
+
+4. Create an Incident with the below values in servicenow
+		category - software
+		state - In progress
+
+5. Create an Issue in Jira 
+6. Search Issue Based on the Issue ID or Key
+7. Edit an Issue in Jira 
+8. Delete an Issue in Jira 
+
+
+
+Assignment Second Week:
+-----------------------
+
+1) Run the Jira collection creating a Bat file
+2) Schedule a Job and run the Jira collection

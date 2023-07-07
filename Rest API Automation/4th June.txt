@@ -1,0 +1,114 @@
+Recap
+
+Assignment 
+
+Postman - menus
+CRUD - in postman with servicenow
+
+
+Recap
+	
+	What diff API vs webservices
+			- communication happens two systems via API (with/witout internet) (apache poi)
+			webservices - only with internet (all our apps)
+			
+	why do we need to do API TEsting
+			- early testing        - aPI will developed at the begining
+			- faster			   - no rendering
+			- api based apps       - now a days all the applications are built with aPI
+			- less failures(script)- we dont face the scripting issues like element not found, timing issues
+			- data generation	   - we can create data with less time 
+			- easier and isolated  - applications are built independently
+			
+			
+			public class sample
+			package name recommendation - lowercase
+			method name - camelCase - sampleTest - fdhfkjdhfjdkh
+			
+	Http methods
+			- get - read/retrive
+			- post- creation
+			- put - updates the entire record
+			- patch- parital update
+			- delete- deletion
+			
+			
+	response code series
+				1xx - information
+				2xx - success
+				3xx - redirects
+				4xx - client errors
+				5xx - server errors
+				
+				
+	Five step process
+				- requirement
+				- endpoint ( server + port + resources)
+				- Add request (authentication / content type/headers/cookies)
+				- send request (http methods like get,post etc)
+				- validate the response
+				
+	Authentication
+				- basic ( username + password)
+				- no authentication
+				- Oauth 2.0
+				- Token 
+				
+	IAAS vs PAAS vs SAAS
+			cloud
+			IAAS - infra structure as service - AWS,Azure and GCP
+			PAAS - Platform as service - AWS RDS
+			SAAS - software as service  - gmail 
+			
+			
+			curl - request/response
+			
+			GET - 
+			
+			REquirement - 
+			
+			Wrapper - 
+			GEt all the things 				-  seelct * from table
+			number, sys_id and category 	-  select number,sys_id,category from table
+			flter with category         	-  select number,sys_id,category from table where category = software
+			
+			
+			Post 
+					- body is mandatory
+					
+					service now post
+							- without body 
+							- with body (as string)
+							- with body via file (external) - industry standard
+							
+							
+			classroom exercise
+			---------------------
+			1. Get all the incidents with the display of only number,urgency and category
+			2. Get all the incidents with category as inquiry
+			3. Create an incident without any body
+			4. Create an incident with body as string with description and category
+			5. Create an incident with body as file with short_description and category
+			
+			API Perscpective
+					- GEt all the records      - no need of particular identifier
+					- get any single record	   - yes, need a identifier
+					- create a record		   - no need of particular identifier
+					- put/patch a record	   - yes, need a identifier
+					- delte a record           - yes, need a identifier
+					
+					
+					
+					
+			Assignment
+				1. put (servicenow)
+				2. patch (servicenow)
+				3. delete (servicenow)
+				
+				Jira - https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#authentication
+				
+				server - 
+				username - 
+				password - 
+				Key - JUN
+				resource - remains same as in document

@@ -1,0 +1,10 @@
+*Common Mistakes identified in postman assignment*
+1) In jira for update and delete dont assert response body(Only status code)
+2) 401 Unauthorized 
+a) Check whether inhertied the Authorization from parent(Collection)
+b) Check your jira key and use the updated one
+c) When you are using collection variables for Authorization
+Give the variables enclosed with curly braces {{password}}
+3)For newman execution, Environment and Collection variables should have initial value to be filled and not empty
+4) Dont comment request and execute via newman (400 bad Request)
+5) while giving newman commands file format for all the files should be specified(.json or .csv)

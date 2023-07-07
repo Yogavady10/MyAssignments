@@ -1,0 +1,160 @@
+Matschie Framework
+
+Recap
+Mat
+
+What is Framework
+
+
+Panel framework ---Constructions
+
+Easy to move and relocate
+Reuse
+Time conservation
+less Maintainence cost
+Easy to adapt
+Portable
+Easy Implementation
+
+Customer satisfaction
+
+
+Mould--10 mins
+
+TestNG-- Execution Framework
+
+Matschie Framework
+
+Purpose of Matschie:
+====================
+
+Automate API's and BDD based with cucumber
+
+Losely coupled
+
+Who can use this framework?
+===========================
+Manual Testers  converting to Automation
+Less Coding
+Who works on BDD
+
+
+Where we can implement Matschie:
+================================
+Smaller projects
+Only for API
+
+
+Advantages:
+===========
+Low code BDD based Framework
+Reporting is achieved with minimal code
+Build with open source tools and libraries
+
+
+Matchie Framework:
+==================
+API Automation --Rest Assured
+BDD --Cucumber
+Reporting -Allure Report
+Execution --TestNG
+Build Tool --Maven
+
+Dependencies:
+=============
+restAssured -API Automation
+TestNG --Execution Framework
+allure-cucumber5-jvm  --To generate reports for cucumber tests
+allure-testng --To generate reports executing with TestNG
+cucumber-java --- BDD
+cucumber-testng --Execution of cucumber tests
+allure-maven  ---To generate reports for the maven test
+
+
+False positive
+
+folder structure of framework
+===========================
+
+BDD with Positive flows
+Services- To execute the negative testcases
+
+Execution:
+=========
+https://maven.apache.org/download.cgi
+
+C:\Program Files\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin
+
+Add the environment variable
+
+
+
+From command prompt :
+======================
+Run the testcases --mvn test
+
+Right click on project --Run as --Maven test
+
+mvn allure:serve
+
+
+
+npm install -g localtunnel
+lt --port 64771
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

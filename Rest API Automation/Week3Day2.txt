@@ -1,0 +1,10 @@
+1) chaining of requests
+Unique Identifier
+Extract sys_id and Set  as global variable
+In Update and Delete Call the Sys_id in endpoint
+
+
+
+
+
+2) Assertion
