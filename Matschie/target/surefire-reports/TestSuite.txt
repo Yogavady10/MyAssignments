@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 42.363 s <<< FAILURE! - in TestSuite
+runScenario(runner.RunTest)  Time elapsed: 8.87 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+runScenario(runner.RunTest)  Time elapsed: 4.12 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+
+runScenario(runner.RunTest)  Time elapsed: 4.474 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
+runScenario(runner.RunTest)  Time elapsed: 4.423 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+
+createIncident(services.IncidentTests)  Time elapsed: 4.187 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at services.IncidentTests.createIncident(IncidentTests.java:35)
+
+getIncidents(services.IncidentTests)  Time elapsed: 4.794 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at services.IncidentTests.getIncidents(IncidentTests.java:22)
+
+updateIncident(services.IncidentTests)  Time elapsed: 3.862 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <401>.
+
+	at services.IncidentTests.updateIncident(IncidentTests.java:47)
+

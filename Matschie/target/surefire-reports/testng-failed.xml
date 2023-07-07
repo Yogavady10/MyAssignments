@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="runner.RunTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- runner.RunTest -->
+      <class name="services.IncidentTests">
+        <methods>
+          <include name="getIncidents"/>
+          <include name="updateIncident"/>
+          <include name="createIncident"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- services.IncidentTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
