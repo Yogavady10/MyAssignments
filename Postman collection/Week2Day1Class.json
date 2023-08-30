@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "e9e87897-9b35-45f1-b771-ba56a2b9b777",
+		"name": "Week2Day1Class",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27785447"
+	},
+	"item": [
+		{
+			"name": "Create Incident",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"// Extract the response and save it in a variable\r",
+							"var resp=pm.response.json();\r",
+							"// Extract sys_id from response\r",
+							"//x.result.sys_id\r",
+							"var sys_id=resp.result.sys_id\r",
+							"console.log(sys_id)\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(sys_id);\r",
+							"});\r",
+							"// Set Sys_id as a Global variable\r",
+							"\r",
+							"pm.globals.set(\"SystemID\",sys_id);\r",
+							"\r",
+							"pm.environment.set(\"Url2\", \"SAS12344\");\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "d-J+lC2Hk7Aj",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{Url}}/api/now/table/{{Inc}}",
+					"host": [
+						"{{Url}}"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"{{Inc}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateIncident",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"verify status code \", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"short_description\": \"{{short_desc}}\",\r\n    \"description\": \"{{desc}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev90367.service-now.com/api/now/table/{{Inc}}/{{SystemID}}",
+					"protocol": "https",
+					"host": [
+						"dev90367",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"{{Inc}}",
+						"{{SystemID}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteIncident",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"verify Delete status code\", function () {\r",
+							"    pm.response.to.have.status(204);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://dev90367.service-now.com/api/now/table/{{Inc}}/{{SystemID}}",
+					"protocol": "https",
+					"host": [
+						"dev90367",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"{{Inc}}",
+						"{{SystemID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "{{UName}}",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "d-J+lC2Hk7Aj",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "UName",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "Inc",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

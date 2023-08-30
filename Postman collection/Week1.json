@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "2c471cb1-7bf6-4578-ba06-5575fe8078e4",
+		"name": "Week1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27785447"
+	},
+	"item": [
+		{
+			"name": "https://dev117892.service-now.com/api/now/table/incident?sysparm_fields=number,urgency,category&category=inquiry",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident?sysparm_fields=number,urgency,category&category=inquiry",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "number,urgency,category"
+						},
+						{
+							"key": "category",
+							"value": "inquiry"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dev117892.service-now.com/api/now/table/incident?sysparm_fields=number,urgency,category&category=inquiry Copy",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "pQ*WNhtb3U8$",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"Test Description\",\"short_description\":\"SD\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev117892.service-now.com/api/now/table/incident/dev117892",
+					"protocol": "https",
+					"host": [
+						"dev117892",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"dev117892"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "number,urgency,category",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "inquiry",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "cb7d133c-cb46-4d5a-892c-a7d1c3b542fc",
+		"name": "Week2 Day2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27785447"
+	},
+	"item": [
+		{
+			"name": "Update using PUT",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "$7Owl8pLr$KN",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"Updated Successfully with Put Request\",\r\n\"made_sla\":\"false\",\r\n\"approval\": \"requested\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev158402.service-now.com/api/now/table/incident/1c741bd70b2322007518478d83673af3",
+					"protocol": "https",
+					"host": [
+						"dev158402",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						"incident",
+						"1c741bd70b2322007518478d83673af3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
